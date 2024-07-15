@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Quotes Extension",
+    "version": "1.0.0",
+    "description": "A Chrome extension to display random quotes.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "logo.png"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "128": "logo.png"
+    }
+}
